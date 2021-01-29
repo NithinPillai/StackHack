@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StackHack</title>
+    <script src="https://kit.fontawesome.com/bece482522.js" crossorigin="anonymous"></script>
+    <link href="cssFiles/modal.css" rel="stylesheet">
+    <link href="cssFiles/navbar.css" rel="stylesheet">
+    <link href="cssFiles/main.css" rel="stylesheet">
+    <link href="cssFiles/footer.css" rel="stylesheet">
+    <link href="cssFiles/carousel.css" rel="stylesheet">
+    <link href="cssFiles/infoCard.scss" rel="stylesheet">
+    <link href="cssFiles/subNavs.css" rel="stylesheet">
+    <link href="cssFiles/form.css" rel="stylesheet">
+    <link href="cssFiles/flickity.css" rel="stylesheet" media="screen">
+    <link href="media/final.svg" rel="icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div id="hiringTop">
+        <p>Now Hiring! Sign up here <a href='https://forms.gle/ktwzACoCHorPR9sVA' target="_blank" id='topLink'><u id='toplink'>Link!</u></a></p>
+        <button class="top-close-button"><i class="fas fa-times-circle fa-2x"></i></button>
+    </div>
+
+    <div class="modal active" id="modal">
+        <div class="modal-header">
+            <div class="title">Now Hiring!</div>
+            <button class="close-button"><i class="fas fa-times-circle fa-2x"></i></button>
+        </div>
+        <div class="modal-body">
+            Now Hiring, Join this <a href='https://forms.gle/ktwzACoCHorPR9sVA' target="_blank" id="registrationLink"><u>Link!</u></a>
+        </div>
+    </div>
+    <div id="overlay" class="active"></div>
+
+    <header>
+        <img src="media/LOGOwithWORDS.png" id="logoHeader" class="logo" alt="logo">
+        <nav>
+            <a href="htmlViewers/team.html">Our Team</a>
+            <a href="htmlViewers/mission.html">Our Mission</a>
+            <a href="htmlViewers/contact.html">Contact Us</a>
+        </nav>
+        <button id="register">Register</button>
+    </header>
+
+
+
+    <div class="gallery js-flickity" data-flickity-options='{ "wrapAround": true }'>
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Java</h3>
+
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+
+                <img src="media/java.svg" class="icon">
+
+            </div>
+        </div>
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Python</h3>
+                <img src="media/python.svg" class="icon">
+
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Web Developer</h3>
+                <img src="media/webdev.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Chrome Extension</h3>
+                <img src="media/chrome.svg" class="icon" alt='Chrome Logo'>
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Scratch</h3>
+                <img src="media/scratch.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Vue</h3>
+                <img src="media/vue.png" class="icon">
+
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">C++</h3>
+                <img src="media/cplusplus.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+                <h4 class="ribbon">Coming Soon</h4>
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">Node JS</h3>
+                <img src="media/nodeJS.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+                <h4 class="ribbon">Coming Soon</h4>
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">BootStrap</h3>
+                <img src="media/bootstrap.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+                <h4 class="ribbon">Coming Soon</h4>
+            </div>
+        </div>
+
+        <div class="gallery-cell parent">
+            <div class="courses">
+                <h3 class="titl">React</h3>
+                <img src="media/react.svg" class="icon">
+                <div class="cont">
+                    Topics to cover:
+                    <ul class="topHolder">
+                        <li>-Projects Data types</li>
+                        <li>-Decision making</li>
+                        <li>-Iteration types</li>
+                        <li>-Scanner, Math, String class</li>
+                        <li>-OOP</li>
+                        <li>-GUI</li>
+                    </ul>
+
+                    <p>Projects: There will be projects along the way to make the students apply the knowledge they have learned. Why Java is a great language because it emphasizes programming class structure.</p>
+
+                    <span class='age'>Age: 7th - 12th</span>
+                </div>
+                <h4 class="ribbon">Coming Soon</h4>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Mission Statement is going to go here -->
+    <div id="missionHolder">
+        <div class="mission head" data-aos="fade-right">
+            <h2 class="subTitles">Mission</h2>
+            <p class="missionCont">We have always gone back to programming as the way to bring our dreams into reality. Everybody here at StackHack understands the demand for programming in the future as well as the plethora of problems that it will solve in society. As a result
+                of this, we took it incubumbent upon ourselves to provide the same tools that will better our society in a streamline way for everybody. StackHack hopes to light the fire underneath everybody passionate about making the world a better
+                place, and give them the tools to do so. We hope that the courses that we provide will invigoruate our students to learn more about coding and the effect that it has on the world. After learning these skills, the sky is the limit for our
+                students.
+            </p>
+            <i class="fas fa-space-shuttle fa-10x rellax" id="rocket" data-rellax-speed="10" data-rellax-percentage="-3.3" style="transform: rotate(-90deg);"></i>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <!-- Team Stuff is going to go here -->
+
+    <div class="team head">
+        <h2 class="subTitles">Meet Our Team!</h2>
+
+        <h3 class="teamMems">Nithin Pillai:<span class="makeRed"> CEO</span></h3>
+        <p class="cont descr">Nithin is sophmore in WWP High School South, and he is very passionate about computer science. In his passtime, he loves bettering his proficiency in computer science and loves playing chess, volleyball, and badminton.</p>
+        <br>
+
+        <h3 class="teamMems">Alexander Yang:<span class="makeRed"> COO</span></h3>
+        <p class="cont descr">Alex is a sophomore in high school and is the developer of a Chrome extension with 14,000 users at its peak. In his free time, he enjoys playing tennis, flute, and the occasional foray into art and graphic design. </p>
+        <br>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Contact Us Form is going to go here -->
+
+    <form action='/email' method='POST'>
+        <label for="name" class="label-name">
+            <span class="content-name">Name:</span>
+        </label>
+        <input type='text' name='name' placeholder="Ex. John Doe" required>
+
+        <br>
+
+        <label for="email" class="label-email">
+            <span class="content-name">Email:</span>
+        </label>
+        <input type='text' name='to_address' placeholder="Ex. johndoe@gmail.com" required>
+        <br>
+        <button id="sendMail">Send Email</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <img src="media/LOGO.svg" id="fLogo" alt="logo">
+
+        <div class="socials">
+            <a href="https://www.instagram.com/stack.hack/?hl=en" target="_blank" id="instaFade"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="mailto:stackhack101@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+        </div>
+
+
+        <p id="bottomText">&#169; 2020 by StackHack, All Rights Reserved
+            <br>Website Maintained by Alex Yang & Nithin Pillai
+        </p>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.7.1/rellax.min.js"></script>
+    <script src="jsFiles/main.js"></script>
+    <script src="jsFiles/emailer.js"></script>
+    <script defer src="jsFiles/modal.js"></script>
+    <script src="jsFiles/flickity.js"></script>
+</body>
+
+</html>
